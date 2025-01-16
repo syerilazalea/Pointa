@@ -32,11 +32,10 @@
         content="php, php dashboard, php template, php admin panel, php admin, admin template, bootstrap admin template, dashboard admin template, php frameworks, php my admin, admin, best php framework, php backend, admin php, dashboard, admin panel template.">
 
     <!-- Title -->
-    <title> Xintra - PHP Bootstrap 5 Premium Admin & Dashboard Template </title>
+    <title> Cash+ </title>
 
     <!-- Favicon -->
-    <link rel="icon" href="https://php.spruko.com/xintra/xintra/assets/images/brand-logos/favicon.ico"
-        type="image/x-icon">
+     <!-- <link rel="icon" href="https://php.spruko.com/xintra/xintra/assets/images/brand-logos/favicon.ico" type="image/x-icon"> -->
 
     <!-- Start::Styles -->
 
@@ -2263,37 +2262,47 @@
             <div class="container-fluid">
 
 
-                <!-- Page Header -->
-                <div class="d-flex align-items-center justify-content-between page-header-breadcrumb flex-wrap gap-2">
-                    <div>
-                        <nav>
-                            <ol class="breadcrumb mb-1">
-                                <li class="breadcrumb-item"><a href="javascript:void(0);">Karyawan</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Kelola Karyawan</li>
-                            </ol>
-                        </nav>
-                        <h1 class="page-title fw-medium fs-18 mb-0">Tables</h1>
-                    </div>
-                    <div class="btn-list">
-                        <button class="btn btn-white btn-wave">
-                            <i class="ri-filter-3-line align-middle me-1 lh-1"></i> Filter
-                        </button>
-                        <button class="btn btn-primary btn-wave me-0">
-                            <i class="ri-share-forward-line me-1"></i> Share
-                        </button>
-                    </div>
+               <!-- Page Header -->
+               <div class="d-flex align-items-center justify-content-between page-header-breadcrumb flex-wrap gap-2">
+                <div>
+                    <nav>
+                        <ol class="breadcrumb mb-1">
+                            <li class="breadcrumb-item"><a href="javascript:void(0);">Laporan</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Laporan Karyawan</li>
+                        </ol>
+                    </nav>
                 </div>
-                <!-- Page Header Close -->
+            </div>
+            <!-- Page Header Close -->
+
 
                 <!-- Start:: row-1 -->
                 <div class="col-xl-12">
                     <div class="card custom-card">
                         <div class="card-header justify-content-between">
                             <div class="card-title">Kelola Karyawan</div>
-                            <div class="prism-toggle">
-                                <button class="btn btn-primary-light">
-                                    <i class="ri-search-line me-2 d-inline-block align-middle"></i>Pencarian
-                                </button>
+                            <div class="d-flex gap-1 align-items-center flex-wrap">
+                                <div class="btn-group">
+                                    <button class="btn btn-outline-light border dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="ti ti-sort-descending-2 me-1"></i> Urut berdasarkan
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="javascript:void(0)">Terbaru</a></li>
+                                        <li><a class="dropdown-item" href="javascript:void(0)">Terlama</a></li>
+                                    </ul>
+                                </div>
+								<div class="card-body">
+									<div class="form-group mb-0">
+										<div class="input-group">
+											<div class="input-group-text text-muted"> <i class="ri-calendar-line"></i> </div>
+											<input type="text" class="form-control" id="weeknum" placeholder="Choose date">
+										</div>
+									</div>
+								</div>
+                                <div class="custom-form-group flex-grow-1">
+                                    <input type="text" class="form-control" placeholder="Pencarian.." aria-label="Recipient's username" aria-describedby="button-addon2">
+                                    <a href="javascript:void(0);" class="text-muted custom-form-btn"><i class="ti ti-search"></i></a>
+                                </div> 
                             </div>
                         </div>
                         <div class="card-body">
@@ -2486,10 +2495,14 @@
     <!-- Color Picker JS -->
     <script src="../assets/libs/%40simonwep/pickr/pickr.es5.min.js"></script>
 
-    <!-- Date & Time Picker JS -->
-    <script src="../assets/libs/flatpickr/flatpickr.min.js"></script>
-    <!-- End::main-scripts -->
+     <!-- Date & Time Picker JS -->
+     <script src="../assets/libs/flatpickr/flatpickr.min.js"></script>
+     <!-- End::main-scripts -->
 
+         
+     <!-- Date & Time Picker JS -->
+     <script src="../assets/libs/flatpickr/flatpickr.min.js"></script>
+     <script src="../assets/js/date%26time-pickers.js"></script>
 
     <!-- Prism JS -->
     <script src="../assets/libs/prismjs/prism.js"></script>
