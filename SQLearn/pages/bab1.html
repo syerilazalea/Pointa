@@ -70,6 +70,14 @@
         }
     </style>
 
+    <style>
+        @media screen and (max-width:998px) {
+            .main-content.app-content {
+                margin-top: 50px;
+            }
+        }
+    </style>
+
 
 </head>
 
@@ -566,6 +574,14 @@
                 <div class="header-content-left">
 
                     <!-- Start::header-element -->
+                    <div class="header-element mx-lg-0">
+                        <a aria-label="Hide Sidebar"
+                            class="sidemenu-toggle header-link animated-arrow hor-toggle horizontal-navtoggle"
+                            data-bs-toggle="sidebar" href="javascript:void(0);"><span></span></a>
+                    </div>
+                    <!-- End::header-element -->
+
+                    <!-- Start::header-element -->
                     <div class="header-element">
                         <div class="horizontal-logo">
                             <a href="index.html" class="header-logo">
@@ -583,12 +599,6 @@
                         </div>
                     </div>
                     <!-- End::header-element -->
-
-                    <!-- Start::header-element -->
-							<div class="header-element mx-lg-0 mx-2">
-								<a aria-label="Hide Sidebar" class="sidemenu-toggle header-link animated-arrow hor-toggle horizontal-navtoggle" data-bs-toggle="sidebar" href="javascript:void(0);"><span></span></a>
-							</div>
-							<!-- End::header-element -->
 
                 </div>
                 <!-- End::header-content-left -->
@@ -684,6 +694,7 @@
         <!-- Start::main-sidebar -->
         <aside class="app-sidebar sticky" id="sidebar">
 
+
             <!-- Start::main-sidebar-header -->
             <div class="main-sidebar-header">
                 <a href="index.html" class="header-logo">
@@ -755,6 +766,20 @@
                         </li>
                         <!-- End::slide -->
 
+                        <!-- Start::slide -->
+                        <li class="slide">
+                            <a href="shop.html" class="side-menu__item">
+                                <i class="side-menu__angle"></i>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 side-menu__icon" fill="none"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M21.999 8a.997.997 0 0 0-.143-.515L19.147 2.97A2.01 2.01 0 0 0 17.433 2H6.565c-.698 0-1.355.372-1.714.971L2.142 7.485A.997.997 0 0 0 1.999 8c0 1.005.386 1.914 1 2.618V20a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-5h4v5a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-9.382c.614-.704 1-1.613 1-2.618zm-2.016.251A2.002 2.002 0 0 1 17.999 10c-1.103 0-2-.897-2-2 0-.068-.025-.128-.039-.192l.02-.004L15.219 4h2.214l2.55 4.251zm-9.977-.186L10.818 4h2.361l.813 4.065C13.957 9.138 13.079 10 11.999 10s-1.958-.862-1.993-1.935zM6.565 4h2.214l-.76 3.804.02.004c-.015.064-.04.124-.04.192 0 1.103-.897 2-2 2a2.002 2.002 0 0 1-1.984-1.749L6.565 4zm3.434 12h-4v-3h4v3z" />
+                                </svg>
+                                <span class="side-menu__label">Shop</span>
+                            </a>
+                        </li>
+                        <!-- End::slide -->
+
 
 
                     </ul>
@@ -772,10 +797,10 @@
         <!-- End::main-sidebar -->
 
         <!-- Start::app-content -->
-        <div class="main-content app-content">
+        <div class="main-content app-content p-1">
             <div class="container-fluid">
 
-                <div class="row">
+                <div class="row pt-4">
                     <!-- Sesi -->
                     <div class="col-md-9">
                         <div class="row">
