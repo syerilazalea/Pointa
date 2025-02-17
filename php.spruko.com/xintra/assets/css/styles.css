@@ -23857,5 +23857,6 @@ a.link-underline-dark {
 .focus-ring.focus-ring-dark:focus {
   --bs-focus-ring-color: rgba(var(--dark-rgb), var(--bs-focus-ring-opacity));
 }
+
 /* End:: Focus Ring */
 /* End:: typography */
