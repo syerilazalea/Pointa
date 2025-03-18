@@ -816,7 +816,7 @@
                                                     <button class="btn btn-icon btn-primary1 btn-wave btn-sm">
                                                         <i class="ti ti-pencil"></i>
                                                     </button>
-                                                    <button class="btn btn-icon btn-danger btn-wave btn-sm"data-bs-effect="effect-scale" data-bs-toggle="modal" href="#DeleteMateri">
+                                                    <button class="btn btn-icon btn-danger btn-wave btn-sm"data-bs-effect="effect-scale" data-bs-toggle="modal" href="#DeleteKuis">
                                                         <i class="ti ti-trash"></i>
                                                     </button>
                                                 </div>
@@ -892,7 +892,28 @@
                 </div>
 
                 <!-- modal delete -->
-                <div class="modal fade"  id="DeleteMateri">
+                <div class="modal fade" id="DeleteKuis"
+				aria-labelledby="DeleteKuisLabel" tabindex="-1" aria-hidden="true"
+				style="display: none;">
+				<div class="modal-dialog modal-dialog-centered">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h6 class="modal-title" id="DeleteKuisLabel">Hapus Data
+							</h6>
+							<button type="button" class="btn-close" data-bs-dismiss="modal"
+								aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+							Anda yakin untuk menghapus data soal-soal?
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-primary-light"
+								data-bs-dismiss="modal">Batal</button>
+							<button type="button" class="btn btn-primary">Hapus</button>
+						</div>
+					</div>
+				</div>
+				</div>
 
 			</div>
 		</div>

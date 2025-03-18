@@ -762,7 +762,7 @@
 		<!-- Start::app-content -->
 		<div class="main-content app-content">
 			<div class="container-fluid">
-                <!-- Table Materi -->
+                <!-- Table user -->
                 <div class="col-xl-12">
                     <div class="card custom-card">
                         <div class="card-header justify-content-between">
@@ -825,7 +825,7 @@
                         <!-- End:: row-1 -->
                     </div>
                 </div>
-                <!-- Table Materi -->
+                <!-- Table user -->
 
                 <!-- modall create -->
                 <div class="modal fade" id="CreateUser" tabindex="-1" aria-labelledby="exampleUserLabel"
@@ -877,8 +877,28 @@
                 </div>
 
                 <!-- modal delete -->
-                <div class="modal fade"  id="DeleteMapel">
-
+				<div class="modal fade" id="DeleteUser"
+				aria-labelledby="DeleteUserLabel" tabindex="-1" aria-hidden="true"
+				style="display: none;">
+				<div class="modal-dialog modal-dialog-centered">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h6 class="modal-title" id="DeleteUserLabel">Hapus Data
+							</h6>
+							<button type="button" class="btn-close" data-bs-dismiss="modal"
+								aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+							Anda yakin untuk menghapus data user?
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-primary-light"
+								data-bs-dismiss="modal">Batal</button>
+							<button type="button" class="btn btn-primary">Hapus</button>
+						</div>
+					</div>
+				</div>
+				</div>
 			</div>
 		</div>
 		<!-- End::app-content -->

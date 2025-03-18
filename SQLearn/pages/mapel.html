@@ -70,60 +70,6 @@
 		}
 	</style>
 
-    <style>
-        .card-img-wrapper {
-            position: relative;
-            display: inline-block;
-            width: 100%;
-            overflow: hidden;
-            border-radius: 5px;
-        }
-
-        .card-img {
-            width: 100%;
-            display: block;
-            transition: transform 0.3s ease-in-out;
-        }
-
-        .overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.6);
-            opacity: 0;
-            transition: opacity 0.3s ease-in-out;
-        }
-
-        .hover-btn {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background: rgba(255, 255, 255, 0.9);
-            color: #000;
-            border: none;
-            padding: 10px 20px;
-            cursor: pointer;
-            border-radius: 5px;
-            opacity: 0;
-            transition: opacity 0.3s ease-in-out;
-        }
-
-        .card-img-wrapper:hover .overlay {
-            opacity: 1;
-        }
-
-        .card-img-wrapper:hover .hover-btn {
-            opacity: 1;
-        }
-
-        .card-img-wrapper:hover .card-img {
-            transform: scale(1.1);
-        }
-    </style>
-
 
 </head>
 
@@ -837,89 +783,256 @@
 		<div class="main-content app-content p-1">
 			<div class="container-fluid ">
 				<!-- Start::row-12 -->
+				<div class="row">
 					<div class="col-xl-12  pt-4">
-						<div class="row row-cols-1 row-cols-md-4">
-                        <div class="col">
-                            <div class="card custom-card">
-                                <div class="card-body">
-                                    <a href="mapel.html" class="card-img-wrapper d-block">
-                                        <img src="../assets/images/media/media-26.jpg" class="card-img mb-3" alt="...">
-                                        <div class="overlay"></div>
-                                    </a>
-                                    <h4 class="card-title fw-medium p-2">MySQL</h4>
-                                    <p class="card-text m-2">With supporting text below as a natural
-                                        lead-in to additional content.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card custom-card">
-                                <div class="card-body">
-                                    <a href="mapel.html" class="card-img-wrapper d-block">
-                                        <img src="../assets/images/media/media-26.jpg" class="card-img mb-3" alt="...">
-                                        <div class="overlay"></div>
-                                    </a>
-                                    <h4 class="card-title fw-medium p-2">MySQL</h4>
-                                    <p class="card-text m-2">With supporting text below as a natural
-                                        lead-in to additional content.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card custom-card">
-                                <div class="card-body">
-                                    <a href="mapel.html" class="card-img-wrapper d-block">
-                                        <img src="../assets/images/media/media-26.jpg" class="card-img mb-3" alt="...">
-                                        <div class="overlay"></div>
-                                    </a>
-                                    <h4 class="card-title fw-medium p-2">MySQL</h4>
-                                    <p class="card-text m-2">With supporting text below as a natural
-                                        lead-in to additional content.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card custom-card">
-                                <div class="card-body">
-                                    <a href="mapel.html" class="card-img-wrapper d-block">
-                                        <img src="../assets/images/media/media-26.jpg" class="card-img mb-3" alt="...">
-                                        <div class="overlay"></div>
-                                    </a>
-                                    <h4 class="card-title fw-medium p-2">MySQL</h4>
-                                    <p class="card-text m-2">With supporting text below as a natural
-                                        lead-in to additional content.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card custom-card">
-                                <div class="card-body">
-                                    <a href="mapel.html" class="card-img-wrapper d-block">
-                                        <img src="../assets/images/media/media-26.jpg" class="card-img mb-3" alt="...">
-                                        <div class="overlay"></div>
-                                    </a>
-                                    <h4 class="card-title fw-medium p-2">MySQL</h4>
-                                    <p class="card-text m-2">With supporting text below as a natural
-                                        lead-in to additional content.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card custom-card">
-                                <div class="card-body">
-                                    <a href="mapel.html" class="card-img-wrapper d-block">
-                                        <img src="../assets/images/media/media-26.jpg" class="card-img mb-3" alt="...">
-                                        <div class="overlay"></div>
-                                    </a>
-                                    <h4 class="card-title fw-medium p-2">MySQL</h4>
-                                    <p class="card-text m-2">With supporting text below as a natural
-                                        lead-in to additional content.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-				
+						<div class="row row-cols-1 row-cols-md-4 g-4">
+							<div class="col">
+								<div class="card custom-card">
+									<img src="../assets/images/thumbnail/Cover 1.jpg" class="card-img-top" alt="...">
+									<div
+										class="card-header justify-content-between border-bottom-0 d-flex align-items-center">
+										<div class="card-title d-flex align-items-center">
+											Bab 1
+											<i class="bx bx-lock-open ms-2 fs-5 align-text-bottom"></i>
+										</div>
+										<a href="javascript:void(0);" data-bs-toggle="collapse"
+											data-bs-target="#collapseExample" aria-expanded="false"
+											aria-controls="collapseExample">
+											<i class="ri-arrow-down-s-line fs-18 collapse-open"></i>
+											<i class="ri-arrow-up-s-line fs-18 collapse-close"></i>
+										</a>
+									</div>
+									<div class="collapse show border-top" id="collapseExample">
+										<div class="card-body">
+											<h6 class="card-text fw-medium">Collapsible Card</h6>
+											<p class="card-text mb-0">Lorem ipsum dolor sit amet consectetur adipisicing
+												elit. Necessitatibus accusantium, repellendus sapiente cumque quos
+												veniam.</p>
+										</div>
+										<div class="card-footer">
+											<a href="bab1.html" class="btn btn-primary">More</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card custom-card">
+									<img src="../assets/images/thumbnail/Cover 2.jpg" class="card-img-top" alt="...">
+									<div class="card-header justify-content-between border-bottom-0">
+										<div class="card-title">
+											Bab 2
+											<i class="bx bx-lock ms-2 fs-5 align-text-bottom"></i>
+										</div>
+										<a href="javascript:void(0);" data-bs-toggle="collapse"
+											data-bs-target="#collapseExample" aria-expanded="false"
+											aria-controls="collapseExample">
+											<i class="ri-arrow-down-s-line fs-18 collapse-open"></i>
+											<i class="ri-arrow-up-s-line fs-18 collapse-close"></i>
+										</a>
+									</div>
+									<div class="collapse show border-top" id="collapseExample">
+										<div class="card-body">
+											<h6 class="card-text fw-medium">Collapsible Card</h6>
+											<p class="card-text mb-0">Lorem ipsum dolor sit amet consectetur adipisicing
+												elit. Necessitatibus accusantium, repellendus sapiente cumque quos
+												veniam.</p>
+										</div>
+										<div class="card-footer">
+											<a href="#exampleModalToggle" class="btn btn-primary" data-bs-toggle="modal"
+												data-bs-target="#exampleModalToggle">More</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card custom-card">
+									<img src="../assets/images/thumbnail/Cover 3.jpg" class="card-img-top" alt="...">
+									<div class="card-header justify-content-between border-bottom-0">
+										<div class="card-title">
+											Bab 3
+											<i class="bx bx-lock ms-2 fs-5 align-text-bottom"></i>
+										</div>
+										<a href="javascript:void(0);" data-bs-toggle="collapse"
+											data-bs-target="#collapseExample" aria-expanded="false"
+											aria-controls="collapseExample">
+											<i class="ri-arrow-down-s-line fs-18 collapse-open"></i>
+											<i class="ri-arrow-up-s-line fs-18 collapse-close"></i>
+										</a>
+									</div>
+									<div class="collapse show border-top" id="collapseExample">
+										<div class="card-body">
+											<h6 class="card-text fw-medium">Collapsible Card</h6>
+											<p class="card-text mb-0">Lorem ipsum dolor sit amet consectetur adipisicing
+												elit. Necessitatibus accusantium, repellendus sapiente cumque quos
+												veniam.</p>
+										</div>
+										<div class="card-footer">
+											<a href="bab1.html" class="btn btn-primary">More</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card custom-card">
+									<img src="../assets/images/thumbnail/Cover 4.jpg" class="card-img-top" alt="...">
+									<div class="card-header justify-content-between border-bottom-0">
+										<div class="card-title">
+											Bab 4
+											<i class="bx bx-lock ms-2 fs-5 align-text-bottom"></i>
+										</div>
+										<a href="javascript:void(0);" data-bs-toggle="collapse"
+											data-bs-target="#collapseExample" aria-expanded="false"
+											aria-controls="collapseExample">
+											<i class="ri-arrow-down-s-line fs-18 collapse-open"></i>
+											<i class="ri-arrow-up-s-line fs-18 collapse-close"></i>
+										</a>
+									</div>
+									<div class="collapse show border-top" id="collapseExample">
+										<div class="card-body">
+											<h6 class="card-text fw-medium">Collapsible Card</h6>
+											<p class="card-text mb-0">Lorem ipsum dolor sit amet consectetur adipisicing
+												elit. Necessitatibus accusantium, repellendus sapiente cumque quos
+												veniam.</p>
+										</div>
+										<div class="card-footer">
+											<a href="bab1.html" class="btn btn-primary">More</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card custom-card">
+									<img src="../assets/images/thumbnail/Cover 5.jpg" class="card-img-top" alt="...">
+									<div class="card-header justify-content-between border-bottom-0">
+										<div class="card-title">
+											Bab 5
+											<i class="bx bx-lock ms-2 fs-5 align-text-bottom"></i>
+										</div>
+										<a href="javascript:void(0);" data-bs-toggle="collapse"
+											data-bs-target="#collapseExample" aria-expanded="false"
+											aria-controls="collapseExample">
+											<i class="ri-arrow-down-s-line fs-18 collapse-open"></i>
+											<i class="ri-arrow-up-s-line fs-18 collapse-close"></i>
+										</a>
+									</div>
+									<div class="collapse show border-top" id="collapseExample">
+										<div class="card-body">
+											<h6 class="card-text fw-medium">Collapsible Card</h6>
+											<p class="card-text mb-0">Lorem ipsum dolor sit amet consectetur adipisicing
+												elit. Necessitatibus accusantium, repellendus sapiente cumque quos
+												veniam.</p>
+										</div>
+										<div class="card-footer">
+											<a href="bab1.html" class="btn btn-primary">More</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card custom-card">
+									<img src="../assets/images/thumbnail/Cover 6.jpg" class="card-img-top" alt="...">
+									<div class="card-header justify-content-between border-bottom-0">
+										<div class="card-title">
+											Bab 6
+											<i class="bx bx-lock ms-2 fs-5 align-text-bottom"></i>
+										</div>
+										<a href="javascript:void(0);" data-bs-toggle="collapse"
+											data-bs-target="#collapseExample" aria-expanded="false"
+											aria-controls="collapseExample">
+											<i class="ri-arrow-down-s-line fs-18 collapse-open"></i>
+											<i class="ri-arrow-up-s-line fs-18 collapse-close"></i>
+										</a>
+									</div>
+									<div class="collapse show border-top" id="collapseExample">
+										<div class="card-body">
+											<h6 class="card-text fw-medium">Collapsible Card</h6>
+											<p class="card-text mb-0">Lorem ipsum dolor sit amet consectetur adipisicing
+												elit. Necessitatibus accusantium, repellendus sapiente cumque quos
+												veniam.</p>
+										</div>
+										<div class="card-footer">
+											<a href="bab1.html" class="btn btn-primary">More</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card custom-card">
+									<img src="../assets/images/thumbnail/Cover 7.jpg" class="card-img-top" alt="...">
+									<div class="card-header justify-content-between border-bottom-0">
+										<div class="card-title">
+											Bab 7
+											<i class="bx bx-lock ms-2 fs-5 align-text-bottom"></i>
+										</div>
+										<a href="javascript:void(0);" data-bs-toggle="collapse"
+											data-bs-target="#collapseExample" aria-expanded="false"
+											aria-controls="collapseExample">
+											<i class="ri-arrow-down-s-line fs-18 collapse-open"></i>
+											<i class="ri-arrow-up-s-line fs-18 collapse-close"></i>
+										</a>
+									</div>
+									<div class="collapse show border-top" id="collapseExample">
+										<div class="card-body">
+											<h6 class="card-text fw-medium">Collapsible Card</h6>
+											<p class="card-text mb-0">Lorem ipsum dolor sit amet consectetur adipisicing
+												elit. Necessitatibus accusantium, repellendus sapiente cumque quos
+												veniam.</p>
+										</div>
+										<div class="card-footer">
+											<a href="bab1.html" class="btn btn-primary">More</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card custom-card">
+									<img src="../assets/images/thumbnail/Cover 8.jpg" class="card-img-top" alt="...">
+									<div class="card-header justify-content-between border-bottom-0">
+										<div class="card-title">
+											Bab 8
+											<i class="bx bx-lock ms-2 fs-5 align-text-bottom"></i>
+										</div>
+										<a href="javascript:void(0);" data-bs-toggle="collapse"
+											data-bs-target="#collapseExample" aria-expanded="false"
+											aria-controls="collapseExample">
+											<i class="ri-arrow-down-s-line fs-18 collapse-open"></i>
+											<i class="ri-arrow-up-s-line fs-18 collapse-close"></i>
+										</a>
+									</div>
+									<div class="collapse show border-top" id="collapseExample">
+										<div class="card-body">
+											<h6 class="card-text fw-medium">Collapsible Card</h6>
+											<p class="card-text mb-0">Lorem ipsum dolor sit amet consectetur adipisicing
+												elit. Necessitatibus accusantium, repellendus sapiente cumque quos
+												veniam.</p>
+										</div>
+										<div class="card-footer">
+											<a href="bab1.html" class="btn btn-primary">More</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 				<!-- End::row-12 -->
+				 <!-- Modal -->
+				 <div class="modal fade" id="exampleModalToggle" aria-labelledby="exampleModalToggleLabel"
+				 tabindex="-1" aria-hidden="true">
+				 <div class="modal-dialog modal-dialog-centered">
+					 <div class="modal-content border-0 text-center pt-2">
+						 <div
+							 class="modal-body d-flex justify-content-center align-items-center flex-column">
+							 <h5 class="w-100 mb-3 mt-2 text-primary">Uji coba kamu telah berakhir</h5>
+							 <p class="mb-3">Buat akun terlebih dahulu untuk melanjutkan pembelajaran,
+								 dan mengakses materi di SQLearn</p>
+							 <a href="register.html" class="btn btn-primary">
+								 Daftar
+							 </a>
+						 </div>
+					 </div>
+				 </div>
+			 </div>
 
 			</div>
 		</div>
